@@ -1,0 +1,59 @@
+MongoDB - crt
+
+mySQl-
+Database
+Tables
+Rows
+Columns 
+
+No-SQL-
+Database
+Collections
+Documents 
+Fields
+
+I. Use (“Poornima”)
+
+II. Collection creation/ tb creation
+
+db.createCollection(“Student”)
+
+III. db.student.insertOne({
+Name: “Aastha Shukla”,
+Age: 20,
+Email: aastha123@gmail.com,
+Phone: 8306330152,
+CGPA: 8.6,
+Skills: [“java”, “springboot”, “DSA”],
+Address: {
+City: “Ajmer”,
+Zipcode: 305004,
+State: “Rajasthan”,
+}
+})
+
+———————————————————————————
+
+I. Use(“Ecommerce”)
+
+
+II. Collection Creation/tb creation
+db.createCollection("Products")
+
+
+III. db.Products.insertOne({
+    Name: "Apple iPhone 17",
+    Category: "Smartphone",
+    Brand: "Apple",
+    Price: 79999,
+    Stock: 25,
+    Rating: 4.6,
+    Features: ["5G", "Face ID", "OLED Display", "Wireless Charging"],
+    Details: {
+        Colour: "Black",
+        Storage: "256GB",
+        RAM: "8GB",
+        Warranty: "1 Year",
+        Country: "India"
+    }
+})
